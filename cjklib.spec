@@ -1,13 +1,13 @@
 Summary:	Han character library for CJKV languages
 Name:		cjklib
 Version:	0.3
-Release:	%mkrel 2
+Release:	%mkrel 3
 Group:		Development/Python
 License:	LGPLv3+
 URL:		http://code.google.com/p/cjklib/
 Source0:	http://cjklib.googlecode.com/files/%{name}-%{version}.tar.gz
-%py_requires -d
 BuildRequires:	python-setuptools
+Requires:	python-pkg-resources
 BuildArch:	noarch
 BuildRoot:      %{_tmppath}/%{name}-%{version}-buildroot
 
