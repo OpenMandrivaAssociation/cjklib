@@ -38,3 +38,27 @@ rm -rf %{buildroot}
 %doc COPYING README TODO examples
 %{_bindir}/*
 %{python_sitelib}/*
+
+
+%changelog
+* Mon Nov 01 2010 Funda Wang <fwang@mandriva.org> 0.3-4mdv2011.0
++ Revision: 591552
+- add requires
+
+* Sun Oct 31 2010 Funda Wang <fwang@mandriva.org> 0.3-3mdv2011.0
++ Revision: 591062
+- add requires
+
+* Sun Oct 31 2010 Funda Wang <fwang@mandriva.org> 0.3-2mdv2011.0
++ Revision: 590789
+- rebuild for py2.7
+
+* Sat Oct 02 2010 Funda Wang <fwang@mandriva.org> 0.3-1mdv2011.0
++ Revision: 582464
+- update to new version 0.3
+
+* Sat Dec 12 2009 Funda Wang <fwang@mandriva.org> 0.2-1mdv2010.1
++ Revision: 477760
+- import cjklib
+
+
