@@ -4,7 +4,7 @@ Version:	0.3
 Release:	5
 Group:		Development/Python
 License:	LGPLv3+
-URL:		http://code.google.com/p/cjklib/
+URL:		https://code.google.com/p/cjklib/
 Source0:	http://cjklib.googlecode.com/files/%{name}-%{version}.tar.gz
 BuildRequires:	python-setuptools
 Requires:	python-pkg-resources
